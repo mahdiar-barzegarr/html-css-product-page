@@ -1,0 +1,83 @@
+@font-face{
+    font-family: "shabnam";
+    src: url(./fonts/Shabnam-FD.woff2) format("truetype");
+}
+body{
+    font-family: "shabnam";
+    background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+}
+*{
+    box-sizing: border-box;
+    margin: 0px
+}
+.all{
+    width:1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    color: aliceblue;
+}
+.main{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.info{
+    width: 100%;
+    border: 1px solid #37474F;
+    box-shadow: 0px 0px 15px aliceblue;
+    padding: 24px;
+    height: 400px;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    
+    
+}
+.darsad{
+    background-color:#263238;
+    color: #90A4AE;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 4px;
+    
+    
+}
+.first{
+    text-decoration: line-through;
+    color:#CFD8DC ;
+    padding-right: 10px;
+}
+.asl{
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+}
+.rate{
+    font-size: 14px;
+    padding-right: 230px;
+    
+    color: bisque;
+}
+.icon{
+    position: relative;
+    right: -710px;
+    top: 2px;
+    background-color: #CFD8DC;
+    width: 22px;
+    height: 22px;
+    color: #90A4AE;
+
+}
